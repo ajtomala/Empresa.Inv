@@ -12,6 +12,7 @@ namespace Empresa.Inv.Application.Entidades.ProductEntity.Handlers
         private readonly IRepository<Product> _productRepository;
         private readonly IMapper _mapper;
 
+
         public CreateProductCommandHandler(IRepository<Product> productRepository, IMapper mapper)
         {
             _productRepository = productRepository;
